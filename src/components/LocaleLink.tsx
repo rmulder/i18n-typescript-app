@@ -1,6 +1,5 @@
 import Link, { LinkProps } from "next/link";
 import React from "react";
-
 import useTranslation from "../hooks/useTranslation";
 
 const LocaleLink: React.FC<LinkProps> = (props) => {

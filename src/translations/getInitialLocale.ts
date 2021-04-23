@@ -1,5 +1,4 @@
 import { defaultLocale } from "./config";
-
 import { Locale, isLocale } from "./types";
 
 export function getInitialLocale(): Locale {

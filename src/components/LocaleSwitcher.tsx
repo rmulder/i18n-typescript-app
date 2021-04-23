@@ -17,8 +17,10 @@ const LocaleSwitcher: React.FC = () => {
     },
     [router]
   );
+
   const { t, locale } = useTranslation();
   const common = t("common") as Translations;
+
   return (
     <div>
       <label className="language-switcher">

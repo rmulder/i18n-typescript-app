@@ -10,7 +10,6 @@ import { ParsedUrlQuery } from "querystring";
 /**
  * Language Context
  */
-
 interface ContextProps {
   readonly localization: Localization;
   readonly setLocale: (localization: Localization) => void;

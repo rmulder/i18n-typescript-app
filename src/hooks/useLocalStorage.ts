@@ -14,6 +14,7 @@ export function useLocalStorage(key: string, initialValue: unknown = "") {
       return initialValue;
     }
   });
+
   // Return a wrapped version of useState's setter function that ...
   // ... persists the new value to localStorage.
   const setValue = (value: unknown) => {
@@ -30,5 +31,6 @@ export function useLocalStorage(key: string, initialValue: unknown = "") {
       console.log(error);
     }
   };
+
   return [storedValue, setValue];
 }
